@@ -602,3 +602,15 @@ async def play(_, message: Message):
 
     os.remove("final.png")
     return await lel.delete()
+
+
+
+### ------------- Cooler ------------- 
+@Client.on_message(command(["cooler"]) & ~filters.edited)
+async def cooler(client: Client, message: Message):
+    m_reply = await message.reply_text("ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ.....")
+    await m_reply.edit_text("ᴘʀᴏᴄᴇssɪɴɢ 🔄 sʏsᴛᴇᴍ !!")
+    await m_reply.edit_text("«---------- ᴄᴘᴜ ᴄᴏᴏʟɪɴɢ ----------»")
+    await m_reply.edit_text("❄️-------- ʀᴜɴɴɪɴɢ ᴄᴏᴏʟᴇʀ --------❄️")
+    await m_reply.edit_text("**---------- ❄️ ᴄᴏᴏʟɪɴɢ ❄️ ----------\n\n------------- ✅ ᴅᴏɴᴇ ✅ ---------------**")
+    await m_reply.edit_text("**🌐 `(`: ɢᴘᴜ & ᴄᴘᴜ :`)` ↗️ ------------»**\n\n• ᴄᴏᴏʟᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ❄️\n• sᴇʀᴠᴇʀ ᴍᴏʀᴇ ᴏᴘᴛɪᴍɪsᴇᴅ ↗️\n• sʏsᴛᴇᴍ ᴜᴘɢʀᴀᴅᴇᴅ ✅\n• ᴡᴏʀᴋɪɴɢ ᴍᴏʀᴇ ғᴀsᴛᴇʀ 🗯")
